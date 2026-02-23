@@ -127,7 +127,7 @@ function processResult(number, betAmount, name) {
 
     updateHistoryDisplay();
 
-    // Fin de partie
+
     if (balance <= 0) {
         alert("Game Over!");
         spinButton.disabled = true;
